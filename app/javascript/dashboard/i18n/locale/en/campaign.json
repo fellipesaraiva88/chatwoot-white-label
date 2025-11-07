@@ -17,7 +17,7 @@
       },
       "EMPTY_STATE": {
         "TITLE": "No live chat campaigns are available",
-        "SUBTITLE": "Connect with your customers using proactive messages.  Click 'Create campaign' to get started."
+        "SUBTITLE": "Connect with your pet owners using proactive messages.  Click 'Create campaign' to get started."
       },
       "CREATE": {
         "TITLE": "Create a live chat campaign",
@@ -84,7 +84,7 @@
       "NEW_CAMPAIGN": "Create campaign",
       "EMPTY_STATE": {
         "TITLE": "No SMS campaigns are available",
-        "SUBTITLE": "Launch an SMS campaign to reach your customers directly. Send offers or make announcements with ease. Click 'Create campaign' to get started."
+        "SUBTITLE": "Launch an SMS campaign to reach your pet owners directly. Send offers or make announcements with ease. Click 'Create campaign' to get started."
       },
       "CARD": {
         "STATUS": {
@@ -118,7 +118,7 @@
           },
           "AUDIENCE": {
             "LABEL": "Audience",
-            "PLACEHOLDER": "Select the customer labels",
+            "PLACEHOLDER": "Select the pet owner labels",
             "ERROR": "Audience is required"
           },
           "SCHEDULED_AT": {
@@ -142,7 +142,7 @@
       "NEW_CAMPAIGN": "Create campaign",
       "EMPTY_STATE": {
         "TITLE": "No WhatsApp campaigns are available",
-        "SUBTITLE": "Launch a WhatsApp campaign to reach your customers directly. Send offers or make announcements with ease. Click 'Create campaign' to get started."
+        "SUBTITLE": "Launch a WhatsApp campaign to reach your pet owners directly. Send offers or make announcements with ease. Click 'Create campaign' to get started."
       },
       "CARD": {
         "STATUS": {
@@ -182,7 +182,7 @@
           },
           "AUDIENCE": {
             "LABEL": "Audience",
-            "PLACEHOLDER": "Select the customer labels",
+            "PLACEHOLDER": "Select the pet owner labels",
             "ERROR": "Audience is required"
           },
           "SCHEDULED_AT": {
