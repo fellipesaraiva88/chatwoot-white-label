@@ -23,7 +23,7 @@
       "TITLE": "Choose a voice inbox"
     },
     "CONVERSATIONS": {
-      "NO_RECORDS_FOUND": "There are no previous conversations associated to this contact.",
+      "NO_RECORDS_FOUND": "There are no previous conversations associated to this pet owner.",
       "TITLE": "Previous Conversations"
     },
     "LABELS": {
@@ -207,7 +207,7 @@
     },
     "ADD": {
       "TITLE": "Create custom attribute",
-      "DESC": "Add custom information to this contact."
+      "DESC": "Add custom information to this pet owner."
     },
     "FORM": {
       "CREATE": "Add attribute",
@@ -255,7 +255,7 @@
   },
   "MERGE_CONTACTS": {
     "TITLE": "Merge contacts",
-    "DESCRIPTION": "Merge contacts to combine two profiles into one, including all attributes and conversations. In case of conflict, the Primary contact’s attributes will take precedence.",
+    "DESCRIPTION": "Merge pet owner profiles to combine two profiles into one, including all attributes and conversations. In case of conflict, the Primary contact's attributes will take precedence.",
     "PRIMARY": {
       "TITLE": "Primary contact",
       "HELP_LABEL": "To be deleted"
@@ -289,16 +289,16 @@
 
   "CONTACTS_LAYOUT": {
     "HEADER": {
-      "TITLE": "Contacts",
-      "SEARCH_TITLE": "Search contacts",
-      "ACTIVE_TITLE": "Active contacts",
+      "TITLE": "Pet Owners",
+      "SEARCH_TITLE": "Search pet owners",
+      "ACTIVE_TITLE": "Active pet owners",
       "SEARCH_PLACEHOLDER": "Search...",
       "MESSAGE_BUTTON": "Message",
       "SEND_MESSAGE": "Send message",
       "BLOCK_CONTACT": "Block contact",
       "UNBLOCK_CONTACT": "Unblock contact",
       "BREADCRUMB": {
-        "CONTACTS": "Contacts"
+        "CONTACTS": "Pet Owners"
       },
       "ACTIONS": {
         "CONTACT_CREATION": {
@@ -376,7 +376,7 @@
       }
     },
     "PAGINATION_FOOTER": {
-      "SHOWING": "Showing {startItem} - {endItem} of {totalItems} contacts"
+      "SHOWING": "Showing {startItem} - {endItem} of {totalItems} pet owners"
     },
     "FILTER": {
       "NAME": "Name",
@@ -397,7 +397,7 @@
         "APPLY_FILTERS": "Apply filters",
         "ADD_FILTER": "Add filter"
       },
-      "TITLE": "Filter contacts",
+      "TITLE": "Filter pet owners",
       "EDIT_SEGMENT": "Edit segment",
       "SEGMENT": {
         "LABEL": "Segment name",
@@ -503,7 +503,7 @@
         "MERGE": "Merge"
       },
       "HISTORY": {
-        "EMPTY_STATE": "There are no previous conversations associated to this contact"
+        "EMPTY_STATE": "There are no previous conversations associated to this pet owner"
       },
       "ATTRIBUTES": {
         "SEARCH_PLACEHOLDER": "Search for attributes",
@@ -558,16 +558,16 @@
         "EXPAND": "Expand",
         "COLLAPSE": "Collapse",
         "NO_NOTES": "No notes, you can add notes from the contact details page.",
-        "EMPTY_STATE": "There are no notes associated to this contact. You can add a note by typing in the box above."
+        "EMPTY_STATE": "There are no notes associated to this pet owner. You can add a note by typing in the box above."
       }
     },
     "EMPTY_STATE": {
-      "TITLE": "No contacts found in this account",
-      "SUBTITLE": "Start adding new contacts by clicking on the button below",
-      "BUTTON_LABEL": "Add contact",
-      "SEARCH_EMPTY_STATE_TITLE": "No contacts matches your search 🔍",
-      "LIST_EMPTY_STATE_TITLE": "No contacts available in this view 📋",
-      "ACTIVE_EMPTY_STATE_TITLE": "No contacts are active at the moment 🌙"
+      "TITLE": "No pet owners found in this account",
+      "SUBTITLE": "Start adding new pet owners by clicking on the button below",
+      "BUTTON_LABEL": "Add pet owner",
+      "SEARCH_EMPTY_STATE_TITLE": "No pet owners match your search 🔍",
+      "LIST_EMPTY_STATE_TITLE": "No pet owners available in this view 📋",
+      "ACTIVE_EMPTY_STATE_TITLE": "No pet owners are active at the moment 🌙"
     }
   },
 
