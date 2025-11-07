@@ -18,9 +18,9 @@
     }
   },
   "TEAM_AVAILABILITY": {
-    "ONLINE": "We are online",
-    "OFFLINE": "We are away at the moment",
-    "BACK_AS_SOON_AS_POSSIBLE": "We will be back as soon as possible"
+    "ONLINE": "We're here to help",
+    "OFFLINE": "We're away at the moment",
+    "BACK_AS_SOON_AS_POSSIBLE": "We'll be back as soon as possible"
   },
   "REPLY_TIME": {
     "IN_A_FEW_MINUTES": "Typically replies in a few minutes",
@@ -57,7 +57,7 @@
   "BUBBLE": {
     "LABEL": "Chat with us"
   },
-  "POWERED_BY": "Powered by Chatwoot",
+  "POWERED_BY": "Powered by Auzap",
   "EMAIL_PLACEHOLDER": "Please enter your email",
   "CHAT_PLACEHOLDER": "Type your message",
   "TODAY": "Today",

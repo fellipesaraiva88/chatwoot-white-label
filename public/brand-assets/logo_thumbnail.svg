@@ -1,25 +1,31 @@
-<svg
-  width="16"
-  height="16"
-  viewBox="0 0 16 16"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <g clip-path="url(#woot-logo-clip-2342424e23u32098)">
-    <path
-      d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z"
-      fill="#2781F6"
-    />
-    <path
-      d="M11.4172 11.4172H7.70831C5.66383 11.4172 4 9.75328 4 7.70828C4 5.66394 5.66383 4 7.70835 4C9.75339 4 11.4172 5.66394 11.4172 7.70828V11.4172Z"
-      fill="white"
-      stroke="white"
-      stroke-width="0.1875"
-    />
-  </g>
-  <defs>
-    <clipPath id="woot-logo-clip-2342424e23u32098">
-      <rect width="16" height="16" fill="white" />
-    </clipPath>
-  </defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <title>Auzap Icon</title>
+    <desc>Auzap - Favicon/Thumbnail</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Background circle -->
+        <circle fill="#06B6D4" cx="256" cy="256" r="256"></circle>
+
+        <!-- Chat bubble -->
+        <path d="M 256,140 C 320,140 372,192 372,256 C 372,320 320,372 256,372 C 235,372 215,367 198,358 L 150,380 L 170,332 C 152,310 140,284 140,256 C 140,192 192,140 256,140 Z"
+              fill="#FFFFFF" opacity="0.95"></path>
+
+        <!-- Paw print inside bubble -->
+        <g transform="translate(210, 215)" fill="#06B6D4">
+          <!-- Main pad -->
+          <ellipse cx="46" cy="60" rx="24" ry="30"></ellipse>
+          <!-- Toe pads -->
+          <ellipse cx="24" cy="30" rx="12" ry="15"></ellipse>
+          <ellipse cx="46" cy="24" rx="12" ry="15"></ellipse>
+          <ellipse cx="68" cy="30" rx="12" ry="15"></ellipse>
+        </g>
+
+        <!-- Small "A" letter at bottom -->
+        <text x="256" y="445"
+              font-family="system-ui, -apple-system, Arial, sans-serif"
+              font-size="60"
+              font-weight="800"
+              fill="#FFFFFF"
+              text-anchor="middle">A</text>
+    </g>
 </svg>
