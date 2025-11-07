@@ -3,7 +3,7 @@
     "HEADER": "Labels",
     "HEADER_BTN_TXT": "Add label",
     "LOADING": "Fetching labels",
-    "DESCRIPTION": "Labels help you categorize and prioritize conversations and leads. You can assign a label to a conversation or contact using the side panel.",
+    "DESCRIPTION": "Labels help you categorize and prioritize conversations and pet owner leads. You can assign a label to a conversation or contact using the side panel.",
     "LEARN_MORE": "Learn more about labels",
     "SEARCH_404": "There are no items matching this query",
     "LIST": {
@@ -46,7 +46,7 @@
         "DESELECT": "Deselect label",
         "DISMISS": "Dismiss suggestion"
       },
-      "POWERED_BY": "Chatwoot AI",
+      "POWERED_BY": "Auzap AI",
       "DISMISS": "Dismiss",
       "ADD_SELECTED_LABELS": "Add selected labels",
       "ADD_SELECTED_LABEL": "Add selected label",
