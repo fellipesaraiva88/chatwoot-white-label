@@ -106,7 +106,7 @@
       "CREATE": "Create team",
       "NAME": {
         "LABEL": "Team name",
-        "PLACEHOLDER": "Example: Sales, Customer Support"
+        "PLACEHOLDER": "Example: Veterinary, Grooming, Reception"
       },
       "DESCRIPTION": {
         "LABEL": "Team Description",

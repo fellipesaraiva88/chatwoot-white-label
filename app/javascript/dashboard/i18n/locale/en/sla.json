@@ -3,7 +3,7 @@
     "HEADER": "Service Level Agreements",
     "ADD_ACTION": "Add SLA",
     "ADD_ACTION_LONG": "Create a new SLA Policy",
-    "DESCRIPTION": "Service Level Agreements (SLAs) are contracts that define clear expectations between your team and customers. They establish standards for response and resolution times, creating a framework for accountability and ensures a consistent, high-quality experience.",
+    "DESCRIPTION": "Service Level Agreements (SLAs) are contracts that define clear expectations between your team and pet owners. They establish standards for response and resolution times, creating a framework for accountability and ensures a consistent, high-quality experience.",
     "LEARN_MORE": "Learn more about SLA",
     "LOADING": "Fetching SLAs",
     "PAYWALL": {
@@ -21,10 +21,10 @@
     "LIST": {
       "404": "There are no SLAs available in this account.",
       "EMPTY": {
-        "TITLE_1": "Enterprise P0",
-        "DESC_1": "Issues raised by enterprise customers, that require immediate attention.",
-        "TITLE_2": "Enterprise P1",
-        "DESC_2": "Issues raised by enterprise customers, that needs to be acknowledged quickly."
+        "TITLE_1": "Emergency Pet Care",
+        "DESC_1": "Emergency cases from pet owners that require immediate attention.",
+        "TITLE_2": "Priority Pet Care",
+        "DESC_2": "Urgent issues from pet owners that need to be acknowledged quickly."
       },
       "BUSINESS_HOURS_ON": "Business hours on",
       "BUSINESS_HOURS_OFF": "Business hours off",
@@ -49,7 +49,7 @@
       },
       "DESCRIPTION": {
         "LABEL": "Description",
-        "PLACEHOLDER": "SLA for premium customers"
+        "PLACEHOLDER": "SLA for premium pet care services"
       },
       "FIRST_RESPONSE_TIME": {
         "LABEL": "First Response Time",

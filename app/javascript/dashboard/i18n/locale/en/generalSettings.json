@@ -60,7 +60,7 @@
         "MESSAGE": {
           "LABEL": "Custom auto-resolution message",
           "PLACEHOLDER": "Conversation was marked resolved by system due to 15 days of inactivity",
-          "HELP": "Message sent to the customer after conversation is auto-resolved"
+          "HELP": "Message sent to the pet owner after conversation is auto-resolved"
         },
         "PREFERENCES": "Preferences",
         "LABEL": {
