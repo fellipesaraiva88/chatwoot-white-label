@@ -1,140 +1,186 @@
-<img src="./.github/screenshots/header.png#gh-light-mode-only" width="100%" alt="Header light mode"/>
-<img src="./.github/screenshots/header-dark.png#gh-dark-mode-only" width="100%" alt="Header dark mode"/>
+# Auzap CRM
+
+### Plataforma completa de CRM e atendimento ao cliente
 
 ___
 
-# Chatwoot
-
-The modern customer support platform, an open-source alternative to Intercom, Zendesk, Salesforce Service Cloud etc.
-
-<p>
-  <a href="https://codeclimate.com/github/chatwoot/chatwoot/maintainability"><img src="https://api.codeclimate.com/v1/badges/e6e3f66332c91e5a4c0c/maintainability" alt="Maintainability"></a>
-  <img src="https://img.shields.io/circleci/build/github/chatwoot/chatwoot" alt="CircleCI Badge">
-    <a href="https://hub.docker.com/r/chatwoot/chatwoot/"><img src="https://img.shields.io/docker/pulls/chatwoot/chatwoot" alt="Docker Pull Badge"></a>
-  <a href="https://hub.docker.com/r/chatwoot/chatwoot/"><img src="https://img.shields.io/docker/cloud/build/chatwoot/chatwoot" alt="Docker Build Badge"></a>
-  <img src="https://img.shields.io/github/commit-activity/m/chatwoot/chatwoot" alt="Commits-per-month">
-  <a title="Crowdin" target="_self" href="https://chatwoot.crowdin.com/chatwoot"><img src="https://badges.crowdin.net/e/37ced7eba411064bd792feb3b7a28b16/localized.svg"></a>
-  <a href="https://discord.gg/cJXdrwS"><img src="https://img.shields.io/discord/647412545203994635" alt="Discord"></a>
-  <a href="https://status.chatwoot.com"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchatwoot%2Fstatus%2Fmaster%2Fapi%2Fchatwoot%2Fuptime.json" alt="uptime"></a>
-  <a href="https://status.chatwoot.com"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchatwoot%2Fstatus%2Fmaster%2Fapi%2Fchatwoot%2Fresponse-time.json" alt="response time"></a>
-  <a href="https://artifacthub.io/packages/helm/chatwoot/chatwoot"><img src="https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/artifact-hub" alt="Artifact HUB"></a>
-</p>
-
-
-<p>
-  <a href="https://heroku.com/deploy?template=https://github.com/chatwoot/chatwoot/tree/master" alt="Deploy to Heroku">
-     <img width="150" alt="Deploy" src="https://www.herokucdn.com/deploy/button.svg"/>
-  </a>
-  <a href="https://marketplace.digitalocean.com/apps/chatwoot?refcode=f2238426a2a8" alt="Deploy to DigitalOcean">
-     <img width="200" alt="Deploy to DO" src="https://www.deploytodo.com/do-btn-blue.svg"/>
-  </a>
-</p>
-
-<img src="./.github/screenshots/dashboard.png#gh-light-mode-only" width="100%" alt="Chat dashboard dark mode"/>
-<img src="./.github/screenshots/dashboard-dark.png#gh-dark-mode-only" width="100%" alt="Chat dashboard"/>
+**Auzap** é uma plataforma moderna de CRM (Customer Relationship Management) e atendimento ao cliente, construída para ajudar empresas a gerenciar relacionamentos com clientes de forma eficiente e escalável. Com foco especial no mercado brasileiro e integração nativa com WhatsApp através da Evolution API, o Auzap oferece todas as ferramentas necessárias para centralizar e otimizar sua comunicação com clientes.
 
 ---
 
-Chatwoot is the modern, open-source, and self-hosted customer support platform designed to help businesses deliver exceptional customer support experience. Built for scale and flexibility, Chatwoot gives you full control over your customer data while providing powerful tools to manage conversations across channels.
+Auzap é uma solução completa e auto-hospedada de CRM que permite às empresas manter controle total sobre seus dados de clientes, enquanto oferece ferramentas poderosas para gerenciar conversas através de múltiplos canais de comunicação.
 
-### ✨ Captain – AI Agent for Support
+## 🚀 Principais Recursos
 
-Supercharge your support with Captain, Chatwoot’s AI agent. Captain helps automate responses, handle common queries, and reduce agent workload—ensuring customers get instant, accurate answers. With Captain, your team can focus on complex conversations while routine questions are resolved automatically. Read more about Captain [here](https://chwt.app/captain-docs).
+### 💬 Atendimento Omnichannel
 
-### 💬 Omnichannel Support Desk
+O Auzap centraliza todas as conversas com clientes em uma única caixa de entrada poderosa, não importa de onde seus clientes entrem em contato. Suporte para:
 
-Chatwoot centralizes all customer conversations into one powerful inbox, no matter where your customers reach out from. It supports live chat on your website, email, Facebook, Instagram, Twitter, WhatsApp, Telegram, Line, SMS etc.
+- **WhatsApp** (integração nativa via Evolution API)
+- Chat ao vivo no seu site
+- E-mail
+- Facebook Messenger
+- Instagram Direct
+- Telegram
+- SMS
+- E mais...
 
-### 📚 Help center portal
+### 📊 CRM Completo para Gestão de Clientes
 
-Publish help articles, FAQs, and guides through the built-in Help Center Portal. Enable customers to find answers on their own, reduce repetitive queries, and keep your support team focused on more complex issues.
+Gerencie todo o relacionamento com seus clientes em um só lugar:
 
-### 🗂️ Other features
+- Perfis completos de contatos com histórico de interações
+- Segmentação de clientes para comunicação direcionada
+- Atributos personalizados para armazenar dados específicos do seu negócio
+- Campanhas proativas para engajar clientes
+- Notas e anotações sobre cada contato
 
-#### Collaboration & Productivity
+### 🤖 Automação Inteligente
 
-- Private Notes and @mentions for internal team discussions.
-- Labels to organize and categorize conversations.
-- Keyboard Shortcuts and a Command Bar for quick navigation.
-- Canned Responses to reply faster to frequently asked questions.
-- Auto-Assignment to route conversations based on agent availability.
-- Multi-lingual Support to serve customers in multiple languages.
-- Custom Views and Filters for better inbox organization.
-- Business Hours and Auto-Responders to manage response expectations.
-- Teams and Automation tools for scaling support workflows.
-- Agent Capacity Management to balance workload across the team.
+Automatize tarefas repetitivas e melhore a eficiência da equipe:
 
-#### Customer Data & Segmentation
-- Contact Management with profiles and interaction history.
-- Contact Segments and Notes for targeted communication.
-- Campaigns to proactively engage customers.
-- Custom Attributes for storing additional customer data.
-- Pre-Chat Forms to collect user information before starting conversations.
+- Distribuição automática de conversas
+- Respostas prontas (Canned Responses)
+- Regras de automação personalizáveis
+- Fluxos de trabalho automatizados
+- Horário de atendimento e respostas automáticas
 
-#### Integrations
-- Slack Integration to manage conversations directly from Slack.
-- Dialogflow Integration for chatbot automation.
-- Dashboard Apps to embed internal tools within Chatwoot.
-- Shopify Integration to view and manage customer orders right within Chatwoot.
-- Use Google Translate to translate messages from your customers in realtime.
-- Create and manage Linear tickets within Chatwoot.
+### 📚 Portal de Ajuda
 
-#### Reports & Insights
-- Live View of ongoing conversations for real-time monitoring.
-- Conversation, Agent, Inbox, Label, and Team Reports for operational visibility.
-- CSAT Reports to measure customer satisfaction.
-- Downloadable Reports for offline analysis and reporting.
+Publique artigos de ajuda, FAQs e guias através do Portal de Ajuda integrado. Permita que clientes encontrem respostas por conta própria, reduza consultas repetitivas e mantenha sua equipe focada em questões mais complexas.
 
+### 🗂️ Recursos Adicionais
 
-## Documentation
+#### Colaboração e Produtividade
 
-Detailed documentation is available at [chatwoot.com/help-center](https://www.chatwoot.com/help-center).
+- **Notas Privadas** e **@menções** para discussões internas da equipe
+- **Etiquetas** para organizar e categorizar conversas
+- **Atalhos de Teclado** e **Barra de Comandos** para navegação rápida
+- **Respostas Prontas** (Canned Responses) para responder mais rápido a perguntas frequentes
+- **Atribuição Automática** para rotear conversas baseado na disponibilidade dos agentes
+- **Suporte Multi-idiomas** para atender clientes em múltiplos idiomas
+- **Visualizações e Filtros Personalizados** para melhor organização da caixa de entrada
+- **Horário Comercial** e **Respostas Automáticas** para gerenciar expectativas de resposta
+- **Equipes** e **Ferramentas de Automação** para escalar fluxos de atendimento
+- **Gestão de Capacidade de Agentes** para balancear carga de trabalho
 
-## Translation process
+#### Gestão de Dados de Clientes
 
-The translation process for Chatwoot web and mobile app is managed at [https://translate.chatwoot.com](https://translate.chatwoot.com) using Crowdin. Please read the [translation guide](https://www.chatwoot.com/docs/contributing/translating-chatwoot-to-your-language) for contributing to Chatwoot.
+- **Gestão de Contatos** com perfis e histórico de interações
+- **Segmentos de Contatos** e **Notas** para comunicação direcionada
+- **Campanhas** para engajar clientes proativamente
+- **Atributos Personalizados** para armazenar dados adicionais de clientes
+- **Formulários Pré-Chat** para coletar informações antes de iniciar conversas
 
-## Branching model
+#### Integrações
 
-We use the [git-flow](https://nvie.com/posts/a-successful-git-branching-model/) branching model. The base branch is `develop`.
-If you are looking for a stable version, please use the `master` or tags labelled as `v1.x.x`.
+- **Evolution API** para integração completa com WhatsApp
+- **Slack** para gerenciar conversas diretamente do Slack
+- **Dialogflow** para automação com chatbots
+- **Dashboard Apps** para incorporar ferramentas internas
+- **Google Translate** para traduzir mensagens de clientes em tempo real
+- **Webhooks** para integrar com seus sistemas existentes
 
-## Deployment
+#### Relatórios e Análises
 
-### Heroku one-click deploy
-
-Deploying Chatwoot to Heroku is a breeze. It's as simple as clicking this button:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/chatwoot/chatwoot/tree/master)
-
-Follow this [link](https://www.chatwoot.com/docs/environment-variables) to understand setting the correct environment variables for the app to work with all the features. There might be breakages if you do not set the relevant environment variables.
-
-
-### DigitalOcean 1-Click Kubernetes deployment
-
-Chatwoot now supports 1-Click deployment to DigitalOcean as a kubernetes app.
-
-<a href="https://marketplace.digitalocean.com/apps/chatwoot?refcode=f2238426a2a8" alt="Deploy to DigitalOcean">
-  <img width="200" alt="Deploy to DO" src="https://www.deploytodo.com/do-btn-blue.svg"/>
-</a>
-
-### Other deployment options
-
-For other supported options, checkout our [deployment page](https://chatwoot.com/deploy).
-
-## Security
-
-Looking to report a vulnerability? Please refer our [SECURITY.md](./SECURITY.md) file.
-
-## Community
-
-If you need help or just want to hang out, come, say hi on our [Discord](https://discord.gg/cJXdrwS) server.
-
-## Contributors
-
-Thanks goes to all these [wonderful people](https://www.chatwoot.com/docs/contributors):
-
-<a href="https://github.com/chatwoot/chatwoot/graphs/contributors"><img src="https://opencollective.com/chatwoot/contributors.svg?width=890&button=false" /></a>
+- **Visualização ao Vivo** de conversas em andamento para monitoramento em tempo real
+- **Relatórios** de Conversas, Agentes, Caixas de Entrada, Etiquetas e Equipes
+- **Relatórios CSAT** para medir satisfação do cliente
+- **Relatórios Exportáveis** para análise offline e reporting
 
 
-*Chatwoot* &copy; 2017-2025, Chatwoot Inc - Released under the MIT License.
+## 📖 Documentação
+
+A documentação completa está disponível em português, incluindo:
+
+- Guia de instalação e configuração
+- Configuração da Evolution API para WhatsApp
+- Guias de uso e melhores práticas
+- Referência de APIs
+- Troubleshooting
+
+Consulte a pasta `/docs` para acessar toda a documentação.
+
+## 🚀 Instalação
+
+### Requisitos
+
+- Ruby 3.2+
+- Node.js 18+
+- PostgreSQL 12+
+- Redis 6+
+
+### Instalação Rápida
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/auzap-crm.git
+cd auzap-crm
+
+# Instale as dependências
+bundle install
+pnpm install
+
+# Configure o banco de dados
+rails db:create
+rails db:migrate
+
+# Inicie o servidor de desenvolvimento
+pnpm dev
+```
+
+### Docker
+
+```bash
+# Construa e inicie com Docker Compose
+docker-compose up -d
+```
+
+## 🔧 Configuração
+
+### Variáveis de Ambiente
+
+Configure as variáveis de ambiente necessárias no arquivo `.env`:
+
+```env
+# Banco de dados
+DATABASE_URL=postgresql://user:password@localhost/auzap_production
+
+# Redis
+REDIS_URL=redis://localhost:6379
+
+# Evolution API (WhatsApp)
+EVOLUTION_API_URL=https://sua-evolution-api.com
+EVOLUTION_API_KEY=sua-chave-api
+
+# Configurações gerais
+SECRET_KEY_BASE=sua-chave-secreta
+FRONTEND_URL=https://seu-dominio.com
+```
+
+## 🔐 Segurança
+
+Para reportar uma vulnerabilidade de segurança, consulte nosso arquivo [SECURITY.md](./SECURITY.md).
+
+## 🤝 Contribuindo
+
+Contribuições são sempre bem-vindas! Para contribuir:
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/NovaFuncionalidade`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
+4. Push para a branch (`git push origin feature/NovaFuncionalidade`)
+5. Abra um Pull Request
+
+### Modelo de Branching
+
+Utilizamos o modelo [git-flow](https://nvie.com/posts/a-successful-git-branching-model/). A branch base é `develop`.
+Para versões estáveis, use a branch `master` ou tags rotuladas como `v1.x.x`.
+
+## 📄 Licença
+
+**Auzap CRM** © 2025 - Distribuído sob a Licença MIT.
+
+---
+
+Desenvolvido com ❤️ para o mercado brasileiro
