@@ -258,6 +258,12 @@ Rails.application.routes.draw do
           end
 
           resources :webhooks, only: [:index, :create, :update, :destroy]
+          resources :evolution_api_configs, only: [:index, :show, :create, :update, :destroy] do
+            member do
+              post :test_connection
+              post :sync_now
+            end
+          end
           namespace :integrations do
             resources :apps, only: [:index, :show]
             resources :hooks, only: [:show, :create, :update, :destroy] do

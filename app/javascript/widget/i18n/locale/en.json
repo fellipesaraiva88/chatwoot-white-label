@@ -55,19 +55,19 @@
     "BOT": "Bot"
   },
   "BUBBLE": {
-    "LABEL": "Chat with us"
+    "LABEL": "Chat with our team"
   },
   "POWERED_BY": "Powered by Auzap",
   "EMAIL_PLACEHOLDER": "Please enter your email",
-  "CHAT_PLACEHOLDER": "Type your message",
+  "CHAT_PLACEHOLDER": "How can we help your pet today?",
   "TODAY": "Today",
   "YESTERDAY": "Yesterday",
   "PRE_CHAT_FORM": {
     "FIELDS": {
       "FULL_NAME": {
-        "LABEL": "Full Name",
-        "PLACEHOLDER": "Please enter your full name",
-        "REQUIRED_ERROR": "Full Name is required"
+        "LABEL": "Your Name",
+        "PLACEHOLDER": "Please enter your name",
+        "REQUIRED_ERROR": "Name is required"
       },
       "EMAIL_ADDRESS": {
         "LABEL": "Email Address",
@@ -86,11 +86,11 @@
       },
       "MESSAGE": {
         "LABEL": "Message",
-        "PLACEHOLDER": "Please enter your message",
+        "PLACEHOLDER": "Tell us about your pet's needs...",
         "ERROR": "Message too short"
       }
     },
-    "CAMPAIGN_HEADER": "Please provide your name and email before starting the conversation",
+    "CAMPAIGN_HEADER": "Please provide your name and email to get started",
     "IS_REQUIRED": "is required",
     "REQUIRED": "Required",
     "REGEX_ERROR": "Please provide a valid input"
@@ -107,9 +107,9 @@
     "ARIA_LABEL": "Emoji picker"
   },
   "CSAT": {
-    "TITLE": "Rate your conversation",
-    "SUBMITTED_TITLE": "Thank you for submitting the rating",
-    "PLACEHOLDER": "Tell us more..."
+    "TITLE": "Rate your experience",
+    "SUBMITTED_TITLE": "Thank you for your feedback!",
+    "PLACEHOLDER": "How was your experience with us?"
   },
   "EMAIL_TRANSCRIPT": {
     "BUTTON_TEXT": "Request a conversation transcript",
